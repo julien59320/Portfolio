@@ -668,6 +668,7 @@ header .navbar ul li a:hover {
 }
 .projectText {
   width: 80%;
+  margin-bottom: 10rem;
 }
 .projectImg img {
   width: 60%;
