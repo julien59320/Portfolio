@@ -135,6 +135,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Gwendolyn:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
 /*------------Valeur def-----------*/
 
@@ -230,12 +231,12 @@ section {
 }
 p {
   font-size: 16px;
-  font-family: "Gwendolyn", cursive;
+  font-family: "Roboto", sans-serif;
   line-height: 2.5rem;
 }
 h1 {
   font-size: 36px;
-  font-family: "Lobster", cursive;
+  font-family: "Roboto", sans-serif;
 }
 h2 {
   font-size: 25px;
