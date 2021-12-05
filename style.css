@@ -1,10 +1,10 @@
 /*------------Keyframe----------*/
 @keyframes spin {
   33% {
-    content: "Web mobile";
+    content: "WEB MOBILE";
   }
   66% {
-    content: "Front end";
+    content: "FRONT END";
   }
 }
 @-webkit-keyframes shake-vertical {
@@ -281,8 +281,11 @@ header .user .name {
 }
 
 header .user .post {
-  font-size: 2rem;
+  font-size: 3rem;
   color: var(--coloSecondary);
+}
+header .user .post span {
+  color: var(--coloPrimary);
 }
 #hi {
   animation: pulse infinite;
@@ -291,7 +294,7 @@ header .user .post {
 }
 
 #hi:after {
-  content: "Web Junior";
+  content: "WEB JUNIOR";
   animation: spin 5s infinite;
 }
 
@@ -318,6 +321,21 @@ header .navbar ul li a {
 
 header .navbar ul li a:hover {
   background: var(--coloPrimary);
+}
+
+.social i {
+  font-size: 2.5rem;
+  color: var(--coloSecondary);
+  padding: 2rem;
+  margin: 1rem;
+  border: 2px solid var(--coloSecondary);
+  border-radius: 50%;
+}
+.social i:hover {
+  color: var(--coloPrimary);
+  background: white;
+  border: 2px solid var(--coloPrimary);
+  border-radius: 50%;
 }
 
 #menu {
@@ -365,6 +383,10 @@ header .navbar ul li a:hover {
   -webkit-animation: slide-in-left 2s both;
   animation: slide-in-left 2s both;
   color: var(--coloSecondary);
+}
+.home .btn {
+  -webkit-animation: slide-in-left 2s both;
+  animation: slide-in-left 2s both;
 }
 /*----------ABOUT------------*/
 
@@ -498,10 +520,10 @@ header .navbar ul li a:hover {
 }
 
 .portfolio .box-container .box {
-  height: 12rem;
-  width: 85%;
+  height: 19rem;
+
   border-radius: 1rem;
-  margin: 2rem;
+  margin: 1rem;
   overflow: hidden;
   cursor: pointer;
 }
@@ -668,12 +690,20 @@ header .navbar ul li a:hover {
 }
 .projectText {
   width: 80%;
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
 }
 .projectImg img {
-  width: 60%;
+  width: 70%;
 }
-
+.bouton {
+  margin-bottom: 5rem;
+}
+.contProject a {
+  margin-right: 2rem;
+}
+.contProject .far {
+  color: var(--coloPrimary);
+}
 /* media queries  */
 
 @media (max-width: 1400px) {
@@ -695,6 +725,7 @@ header .navbar ul li a:hover {
   .portfolio .box-container {
     padding: 1rem 5%;
   }
+
   .contact {
     padding: 1rem 5%;
   }
@@ -712,6 +743,9 @@ header .navbar ul li a:hover {
   }
   .projectImg img {
     width: 80%;
+  }
+  .portfolio .box-container .box img {
+    width: 100%;
   }
 }
 
@@ -739,7 +773,7 @@ header .navbar ul li a:hover {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 610px) {
   header {
     width: 100vw;
   }
@@ -760,13 +794,13 @@ header .navbar ul li a:hover {
   }
 
   .education .box-container .box {
-    width: 90%;
+    width: 100%;
   }
   .portfolio .box-container {
     flex-direction: column;
   }
   .portfolio .box-container .box img {
-    width: 90%;
+    width: 35%;
   }
   .bloc {
     height: 35rem;
