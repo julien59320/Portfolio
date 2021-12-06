@@ -265,6 +265,7 @@ header {
 header .user {
   margin-bottom: 5rem;
 }
+
 header .user img {
   height: 20rem;
   width: 20rem;
@@ -281,7 +282,7 @@ header .user .name {
 }
 
 header .user .post {
-  font-size: 3rem;
+  font-size: 2rem;
   color: var(--coloSecondary);
 }
 header .user .post span {
@@ -404,10 +405,11 @@ header .navbar ul li a:hover {
   padding: 1rem 0;
 }
 .bloc {
-  height: 22rem;
+  height: 25rem;
   color: var(--coloSecondary);
   margin-top: 5rem;
 }
+
 .bloc p {
   width: 80%;
 }
@@ -556,6 +558,24 @@ header .navbar ul li a:hover {
   margin-bottom: 1.5rem;
 }
 /*-----------contact---------*/
+.alert-danger {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 2rem;
+  color: red;
+  background: var(--backCards);
+  padding: 1rem;
+}
+.alert-success {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 2rem;
+  color: var(--coloPrimary);
+  background: var(--backCards);
+  padding: 1rem;
+}
 .contact {
   padding: 0 15%;
   display: flex;
