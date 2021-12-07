@@ -1,6 +1,6 @@
 <?php session_start(); ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
   <meta charset="UTF-8" />
@@ -12,7 +12,7 @@
 
   <!-- custom css file link  -->
 
-  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./stylesheet.css" />
 </head>
 
 <body>
@@ -47,6 +47,7 @@
   <div id="menu" class="fas fa-bars"></div>
 
   <!-- home section starts  -->
+  <div id="particles-js"></div>
 
   <section class="home" id="home">
     <h3><span>Bienvenue </span></h3>
@@ -151,7 +152,7 @@
         <h3>Developpeur web</h3>
         <p>
           Formation de développeur web et web mobile à AFCI de villeneuve-d'ascq, qui ma permit de mieux comprendre
-          le fonctionnement du web, mais également d'acquérir de bonne base en algorithmie et su certains languages de programmation.
+          le fonctionnement du web, mais également d'acquérir de bonne base en algorithmie et sur certains languages de programmation.
         </p>
       </div>
 
@@ -264,6 +265,7 @@
         </div>
       </article>
 
+      <!-- Formaulaire -->
       <form method="post" action="mail.php">
 
 
@@ -306,6 +308,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
   <!-- custom js file link  -->
+  <script type="text/javascript" src="./particles.js"></script>
+  <script type="text/javascript" src="./app.js"></script>
   <script src="./script.js"></script>
 </body>
 
