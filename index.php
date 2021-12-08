@@ -12,7 +12,7 @@
 
   <!-- custom css file link  -->
 
-  <link rel="stylesheet" href="./stylesheet.css" />
+  <link rel="stylesheet" href="./styleb.css" />
 </head>
 
 <body>
@@ -76,7 +76,7 @@
         <p>
           Je m'appelle Spileers Julien, j'ai 28 ans et je vis à Haubourdin en France.
           <br />
-          Ma passion pour le développement web commence en décembre 2020 où j'ai decider de me reconvertir
+          Ma passion pour le développement web commence en décembre 2020 où j'ai decidé de me reconvertir
           professionnellement en intégrant la formation développeur web et web mobile à AFCI.
           <br />
           <br />
@@ -151,7 +151,7 @@
         <span>2021</span>
         <h3>Developpeur web</h3>
         <p>
-          Formation de développeur web et web mobile à AFCI de villeneuve-d'ascq, qui ma permit de mieux comprendre
+          Formation de développeur web et web mobile à AFCI de Villeneuve-d'ascq, qui m'a permit de mieux comprendre
           le fonctionnement du web, mais également d'acquérir de bonne base en algorithmie et sur certains languages de programmation.
         </p>
       </div>
@@ -161,7 +161,7 @@
         <span>2018</span>
         <h3>Extrudeur Plastique</h3>
         <p>
-          Employer en qualité de sous-chef, j'accompagnais et remplacer le chef lors de ses absences.
+          Employé en qualité de sous-chef, j'accompagnais le chef et le remplaçais lors de ses absences.
           Je manageais une équipe de 8 personnes, Réglage des machines de production et gestion de la qualité du produit.
         </p>
       </div>
@@ -309,7 +309,7 @@
 
   <!-- custom js file link  -->
   <script type="text/javascript" src="./particles.js"></script>
-  <script type="text/javascript" src="./app.js"></script>
+  <script type="text/javascript" src="./app1.js"></script>
   <script src="./script.js"></script>
 </body>
 

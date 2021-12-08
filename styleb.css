@@ -4,7 +4,7 @@
     content: 'WEB MOBILE';
   }
   66% {
-    content: 'WEB FRONT END';
+    content: 'FRONT END';
   }
 }
 @-webkit-keyframes shake-vertical {
@@ -192,10 +192,10 @@ body {
   padding-left: 35rem;
 }
 #particles-js {
-  background: #1b1b1b;
+  background: #000000;
   position: absolute;
   width: 100%;
-  height: 500%;
+  height: 505%;
   background-repeat: repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -713,6 +713,7 @@ header .navbar ul li a:hover {
 .contProject {
   height: 100vh;
   display: flex;
+  margin: 5rem 0;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -806,6 +807,18 @@ header .navbar ul li a:hover {
   body {
     padding: 0;
   }
+  #particles-js {
+    display: none;
+  }
+  body {
+    background-image: url('./Img/y23.gif.crdownload');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    color: white;
+  }
 }
 
 @media (max-width: 768px) {
@@ -880,8 +893,5 @@ header .navbar ul li a:hover {
   }
   .projectImg {
     width: 100%;
-  }
-  #particles-js {
-    height: 860%;
   }
 }
