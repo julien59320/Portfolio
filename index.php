@@ -12,7 +12,7 @@
 
   <!-- custom css file link  -->
 
-  <link rel="stylesheet" href="./styleb.css" />
+  <link rel="stylesheet" href="./styles.css" />
 </head>
 
 <body>
@@ -27,19 +27,13 @@
 
     <nav class="navbar">
       <ul>
-        <li><a href="#home">Acceuil</a></li>
+        <li><a href="#home">Accueil</a></li>
         <li><a href="#about">A propos</a></li>
         <li><a href="#education">Mes compétence</a></li>
         <li><a href="#portfolio">Mes Projets</a></li>
         <li><a href="#contact">Me Contacter</a></li>
       </ul>
     </nav>
-    <div class="social">
-      <a href="https://www.linkedin.com/in/julien-spileers-5763741a7/" target="_blank"><i class="fab fa-linkedin"></i></a>
-      <a href="https://github.com/julien59320" target="_blank">
-        <i class="fab fa-github"></i></a>
-      <a href="mailto:spileers.julien59@gmail.com"><i class="fab fa-telegram-plane"></i></a>
-    </div>
   </header>
 
   <!-- header section ends -->
@@ -128,7 +122,7 @@
       <p>
         Je vous propose mes compétences pour apporter des solutions à vos problèmes de développement,
         Je peux créer et gérer des sites en front-end ainsi qu’en back-end à l’aide de ces différents langages :
-        HTML, CSS – Boostrap, Javascript – Symfony, React, SQL, PHP et des CMS tel que WordPress et Shopify.
+        HTML, CSS – Boostrap, Javascript – Symfony, React, SQL, PHP et des CMS tels que WordPress et Shopify.
         <br>
         <br>
         Mes expériences professionnelles passées, me permettent de mieux comprendre le fonctionnement du web
@@ -186,54 +180,77 @@
     <div class="box-container">
       <article class="cards">
         <div class="box">
-          <img src="./Img/backend.png" alt="" />
+          <img src="./Img/FireShot Capture 002 - JohnPharell - julien59320.github.io.png" alt="" />
         </div>
         <div class="cardText">
           <h3>Site e-commerce</h3>
           <p>
-            Symfony dolor sit amet consectetur adipisicing elit.
-            Necessitatibus tempore nam accusantium quam
+            Création d'un template e-commerce, qui ma permit de développer mes compétences en HTML, CSS, Javascript et AJAX.
           </p>
-          <a href="./Projet.html"><button class="btn">A venir</button></a>
+          <div class="boxBtn">
+            <a href="https://julien59320.github.io/JohnPharell/"><button class="btn">Découvrir</button></a>
+            <a href="https://github.com/julien59320/JohnPharell"><button class="btn">Github</button></a>
+          </div>
         </div>
       </article>
       <article class="cards">
         <div class="box">
-          <img src="./Img/backend.png" alt="" />
+          <img src="./Img/AdobeStock_139559217.jpeg" alt="" />
         </div>
         <div class="cardText">
-          <h3>Jeu javascript</h3>
+          <h3>Blog</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Necessitatibus tempore nam accusantium quam
+            Création d'un blog fonctionnel, qui ma permit de développer mes compétences en TWIG, CSS, SYMFONY et PHP.
           </p>
-          <a href="./Projet2.html"><button class="btn">A venir</button></a>
+          <div class="boxBtn">
+            <a href="https://julien59320.github.io/JohnPharell/#"><button class="btn">En cours</button></a>
+            <a href="https://github.com/julien59320/JohnPharell"><button class="btn">Github</button></a>
+          </div>
         </div>
       </article>
       <article class="cards">
         <div class="box">
-          <img src="./Img/backend.png" alt="" />
-        </div>
-        <div class="cardText">
-          <h3>API Rest crud</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Necessitatibus tempore nam accusantium quam
-          </p>
-          <a href="./Projet3.html"><button class="btn">A venir</button></a>
-        </div>
-      </article>
-      <article class="cards">
-        <div class="box">
-          <img src="./Img/backend.png" alt="" />
+          <img src="./Img/AdobeStock_139559217.jpeg" alt="" />
         </div>
         <div class="cardText">
           <h3>Compétence React</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Necessitatibus tempore nam accusantium quam
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur illo facilis dolorum similique, adipisci voluptatibus?
           </p>
-          <a href="./Projet4.html"><button class="btn">A venir</button></a>
+          <div class="boxBtn">
+            <a href="#"><button class="btn">A venir</button></a>
+            <a href="#"><button class="btn">Github</button></a>
+          </div>
+        </div>
+      </article>
+      <article class="cards">
+        <div class="box">
+          <img src="./Img/AdobeStock_139559217.jpeg" alt="" />
+        </div>
+        <div class="cardText">
+          <h3>Gestion API</h3>
+          <p>
+            Créer une applications méteo en AJAX qui me permettra de développer mes compétences en AJAX, JAVASCRIPT et CSS.
+          </p>
+          <div class="boxBtn">
+            <a href="#"><button class="btn">A venir</button></a>
+            <a href="#"><button class="btn">Github</button></a>
+          </div>
+        </div>
+      </article>
+      <article class="cards">
+        <div class="box">
+          <img src="./Img/FireShot Capture 004 - Spileers Julien - julien59320.github.io.png" alt="" />
+        </div>
+        <div class="cardText">
+          <h3>Curriculum vitaé</h3>
+          <p>
+            Création d'un C.V a partir d'une maquette, qui ma permit de développer mes compétences en intégrations Web ainsi qu'en HTML, CSS.
+          </p>
+          <div class="boxBtn">
+            <a href="https://julien59320.github.io/Projet_2/"><button class="btn">Découvrir</button></a>
+            <a href="https://github.com/julien59320/Projet_2"><button class="btn">Github</button></a>
+          </div>
         </div>
       </article>
     </div>
@@ -265,7 +282,7 @@
         </div>
       </article>
 
-      <!-- Formaulaire -->
+      <!-- Formulaire -->
       <form method="post" action="mail.php">
 
 

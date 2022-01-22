@@ -1,10 +1,16 @@
 /*------------Keyframe----------*/
+/** spinner **/
+@keyframes spinner {
+  to {
+    transform: rotate(360deg);
+  }
+}
 @keyframes spin {
   33% {
-    content: 'WEB MOBILE';
+    content: "WEB MOBILE";
   }
   66% {
-    content: 'FRONT END';
+    content: "FRONT END";
   }
 }
 @-webkit-keyframes shake-vertical {
@@ -132,10 +138,10 @@
   }
 }
 /*------------Import-----------*/
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gwendolyn:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
 /*------------Valeur def-----------*/
 
@@ -195,7 +201,7 @@ body {
   background: #000000;
   position: absolute;
   width: 100%;
-  height: 505%;
+  height: 510vh;
   background-repeat: repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -205,6 +211,7 @@ body {
 section {
   min-height: 100vh;
   padding: 1rem;
+  margin: 0 auto;
 }
 
 .btn {
@@ -213,6 +220,7 @@ section {
   color: var(--coloSecondary);
   cursor: pointer;
   margin-top: 2rem;
+  margin-right: 2rem;
   font-size: 2rem;
   border-radius: 5rem;
   border: none;
@@ -236,25 +244,26 @@ section {
   color: var(--coloSecondary);
 }
 
-.heading span {
-  color: var(--coloPrimary);
+.center {
+  margin: 2rem auto;
+  text-align: center;
 }
 p {
   font-size: 16px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 2.5rem;
 }
 h1 {
   font-size: 28px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 h2 {
   font-size: 25px;
-  font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
 }
 h3 {
-  font-family: 'Lobster', cursive;
-  font-size: 22px;
+  font-family: "Lobster", cursive;
+  font-size: 20px;
 }
 /*----------debut code-----------*/
 /*----------header-----------*/
@@ -264,7 +273,7 @@ header {
   top: 0;
   left: 0;
   z-index: 1000;
-  height: 100%;
+  height: 100vh;
   width: 35rem;
   background: #111111;
   display: flex;
@@ -306,7 +315,7 @@ header .user .post span {
 }
 
 #hi:after {
-  content: 'WEB JUNIOR';
+  content: "WEB JUNIOR";
   animation: spin 5s infinite;
 }
 
@@ -421,7 +430,7 @@ header .navbar ul li a:hover {
   z-index: 1;
 }
 .bloc {
-  height: 25rem;
+  height: 21rem;
   color: var(--coloSecondary);
   margin-top: 5rem;
   z-index: 1;
@@ -533,15 +542,15 @@ header .navbar ul li a:hover {
 .portfolio .box-container {
   display: flex;
   align-items: center;
-  padding: 0 15%;
+  padding: 5rem 15%;
   justify-content: space-between;
   flex-wrap: wrap;
   z-index: 1;
 }
 
 .portfolio .box-container .box {
-  height: 15rem;
-
+  /* height: 15rem; */
+  text-align: center;
   border-radius: 1rem;
   margin: 1rem;
   overflow: hidden;
@@ -549,13 +558,14 @@ header .navbar ul li a:hover {
 }
 
 .portfolio .box-container .box img {
-  height: 100%;
+  height: 170px;
   width: 100%;
   object-fit: cover;
+  border-radius: 1rem;
 }
 
 .cards:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 .cards {
   display: flex;
@@ -564,16 +574,40 @@ header .navbar ul li a:hover {
   background: var(--backCards);
   margin: 1rem 1rem;
   color: var(--coloSecondary);
+  width: 30%;
+  box-shadow: 0 10px 15px -3px rgba(255, 255, 255, 0.1),
+    0 4px 6px -4px rgba(255, 255, 255, 0.1);
+}
+.cards:nth-child(4) {
+  flex-direction: row;
   width: 47%;
+}
+.cards:nth-child(5) {
+  flex-direction: row;
+  width: 47%;
+}
+.cards:nth-child(4) .box {
+  width: 50rem;
+}
+.cards:nth-child(4) .box img {
+  height: 25rem;
+}
+.cards:nth-child(5) .box {
+  width: 50rem;
+}
+.cards:nth-child(5) .box img {
+  height: 25rem;
 }
 
 .cardText {
-  margin: 2rem;
-  width: 85%;
+  margin: 1rem 1rem;
 }
 .cardText h3 {
   color: var(--coloPrimary);
   margin-bottom: 1.5rem;
+}
+.boxBtn {
+  display: flex;
 }
 /*-----------contact---------*/
 .alert-danger {
@@ -616,6 +650,8 @@ header .navbar ul li a:hover {
   color: var(--coloSecondary);
   justify-content: center;
   font-size: 16px;
+  box-shadow: 0 10px 15px -3px rgba(255, 255, 255, 0.1),
+    0 4px 6px -4px rgba(255, 255, 255, 0.1);
 }
 
 .icone .fas {
@@ -748,31 +784,39 @@ header .navbar ul li a:hover {
 }
 /* media queries  */
 
-@media (max-width: 1400px) {
+@media (max-width: 1540px) {
   html {
     font-size: 55%;
   }
   .projectImg img {
     width: 80%;
   }
+  .bloc {
+    height: auto;
+  }
+  section {
+    width: 90%;
+    margin: 0 auto;
+  }
+
   .home {
-    padding: 1rem 5%;
+    padding: 0rem;
   }
   .about {
-    padding: 1rem 5%;
+    padding: 0rem;
   }
   .education {
-    padding: 1rem 5%;
+    padding: 0rem;
   }
   .portfolio .box-container {
-    padding: 1rem 5%;
+    padding: 0rem;
   }
 
   .contact {
-    padding: 1rem 5%;
+    padding: 0rem;
   }
 }
-@media (max-width: 1024px) {
+@media (max-width: 1054px) {
   .contProject {
     flex-direction: column;
   }
@@ -788,6 +832,12 @@ header .navbar ul li a:hover {
   }
   .portfolio .box-container .box img {
     width: 100%;
+  }
+  .boxBtn {
+    flex-direction: column;
+  }
+  #particles-js {
+    height: 425rem;
   }
 }
 
@@ -811,11 +861,10 @@ header .navbar ul li a:hover {
     display: none;
   }
   body {
-    background-image: url('./Img/y23.gif.crdownload');
+    background-image: url("./Img/y23.gif.crdownload");
     background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat;
     object-fit: cover;
     color: white;
   }
@@ -825,9 +874,6 @@ header .navbar ul li a:hover {
   html {
     font-size: 50%;
   }
-}
-
-@media (max-width: 610px) {
   header {
     width: 100vw;
   }
@@ -844,24 +890,22 @@ header .navbar ul li a:hover {
   .heading {
     margin: 5rem 3rem;
   }
-  .education .box-container {
-    margin-top: 8rem;
-  }
 
+  .bloc {
+    height: 15rem;
+  }
+  .bloc p {
+    width: 100%;
+  }
+}
+@media (max-width: 450px) {
   .education .box-container .box {
     width: 100%;
   }
-  .portfolio .box-container {
-    flex-direction: column;
+  .education .box-container {
+    margin-top: 8rem;
   }
-
-  .portfolio .box-container .box img {
-    width: 55%;
-  }
-  .bloc {
-    height: 35rem;
-  }
-  .bloc p {
+  .projectImg {
     width: 100%;
   }
   .cards {
@@ -869,14 +913,25 @@ header .navbar ul li a:hover {
     width: 100%;
     margin: 2rem 0;
   }
+  .bloc {
+    height: 25rem;
+  }
 
+  .portfolio .box-container {
+    flex-direction: column;
+  }
+
+  .portfolio .box-container .box img {
+    width: 85%;
+    border-radius: 1rem;
+  }
   .portfolio .box-container .box {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 25rem;
   }
+
   .contactText {
     flex-direction: column;
     width: 60%;
@@ -891,7 +946,27 @@ header .navbar ul li a:hover {
   .fa-map-marker-alt {
     top: 2rem;
   }
-  .projectImg {
+  .cards:nth-child(4) {
+    flex-direction: column;
     width: 100%;
+  }
+  .cards:nth-child(5) {
+    flex-direction: column;
+    width: 100%;
+  }
+  .cards:nth-child(4) .box {
+    width: 100%;
+  }
+  .cards:nth-child(4) .box img {
+    height: 35rem;
+  }
+  .cards:nth-child(5) .box {
+    width: 100%;
+  }
+  .cards:nth-child(5) .box img {
+    height: 35rem;
+  }
+  .boxBtn {
+    flex-direction: row;
   }
 }
